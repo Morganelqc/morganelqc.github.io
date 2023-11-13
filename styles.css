@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D3FFC2 ;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.navbar {
+    background-color: #6EA774; /* Couleur de fond du menu et du footer */
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Animation de transition */
+}
+
+.navbar a:hover {
+    background-color: #527A57; /* Changement de couleur au survol */
+}
+
+.section {
+    padding: 20px;
+}
+
+#accueil {
+    background-color: #E1FFE1;
+}
+
+#jeux {
+    background-color: #E1FFE1;
+}
+
+#source {
+    background-color: #E1FFE1;
+}
+
+h1, h2 {
+    background-color: #8BDFA2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.iframe-container {
+    text-align: center; /* Centre l'iframe */
+}
+
+iframe {
+    border: none;
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3AA416;
+}
+
+tr:nth-child(even) {
+    background-color: #3AA416;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+}
+
+input[type="submit"] {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3AA416;
+}
+
+footer {
+    background-color: #3AA416;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100px;
+    max-height: 100px;
+}
